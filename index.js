@@ -35,6 +35,9 @@ app.post('*',(req,res) => {
        `;
        res.send(response);
 
+    } else if(text === '3') {
+        let response = `END Success! Attendance marked for user ${userId} at location: ${gsmLocation}`;
+        res.send(response);
     } else if(text === '0'){
         let response = `END Exiting the Staff Role Call System. Goodbye!`;
         res.send(response);
