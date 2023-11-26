@@ -30,7 +30,7 @@ app.post('*',(req,res) => {
         // buz logic for first level
        let response = `
        CON Staff Role Call Menu:
-       1. Mark Attendance
+       1. Submit Attendance and Location
        0. Go Back to Main Menu
        `;
        res.send(response);
