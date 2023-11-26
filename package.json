@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "A simple ussd server for gss",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node index.js"
   },
